@@ -1,0 +1,215 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+
+    html {
+        max-width: 1440px;
+    }
+
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+    html {
+        max-width: 1200px;
+    }
+
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    html {
+        max-width: 1024px;
+    }
+
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+    html {
+        max-width: 1024px;
+    }
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+    html {
+        max-width: 767px;
+    }
+
+    .flex-header {
+        gap: 0rem;
+    }
+
+    .top-header {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        gap: 1rem;
+        padding-bottom: 1rem;
+        margin-bottom: 0rem;
+    }
+
+    .banner {
+        padding: 1rem;
+    }
+
+    .bg-header {
+        background-size: 180%;
+        background-position: 50% 40%;
+    }
+
+    .logo {
+        flex: 1 1 0;
+    }
+
+    .nav {
+        flex: 1 1 0;
+        width: 100%;
+    }
+
+    .social {
+        flex: 1 1 0;
+        width: 30%;
+    }
+
+    .flex-container {
+        display: flex;
+        flex-flow: column;
+        flex-wrap: nowrap;
+        align-items: stretch;
+        gap: 1rem;
+    }
+
+    .contenido-article p {
+        columns: 1;
+        max-height: 150px;
+        margin: 0;
+        gap: 1rem;
+        overflow: hidden;
+    }
+
+    .comercial {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    body {
+        overflow-x: auto;
+    }
+
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (max-width: 480px) {
+
+    html {
+        max-width: 480px;
+    }
+
+    .container {
+        padding: 0.5rem 0.5rem 0rem 0.5rem;
+    }
+
+    .flex-header {
+        gap: 0rem;
+    }
+
+    .top-header {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        gap: 1rem;
+        padding: 0.5rem;
+        margin-bottom: 0rem;
+    }
+
+    .banner {
+        padding: 1rem;
+    }
+
+    .bg-header {
+        background-size: 250%;
+        background-position: 50% 40%;
+    }
+
+    .logo {
+        flex: 1 1 0;
+    }
+
+    .nav {
+        flex: 1 1 0;
+        width: 100%;
+    }
+
+    .social {
+        flex: 1 1 0;
+        width: 30%;
+    }
+
+    .flex-container {
+        display: flex;
+        flex-flow: column;
+        flex-wrap: nowrap;
+        align-items: stretch;
+        gap: 1rem;
+    }
+
+    .contenido-article p {
+        columns: 1;
+        max-height: 120px;
+        margin: 0;
+        gap: 1rem;
+        overflow: hidden;
+    }
+
+    .contenido {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        gap: 1rem;
+    }
+
+    .comercial {
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    body {
+        overflow-x: auto;
+    }
+
+}
