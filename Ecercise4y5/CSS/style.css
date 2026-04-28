@@ -114,6 +114,10 @@ html {
     Los paddings del contenedor padre estan na */
 }
 
+.top-header a:hover {
+    background-color: rgba(43, 43, 44, 0.1);
+}
+
 .banner {
     width: 90%;
     display: flex;
@@ -136,12 +140,12 @@ html {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    height: 4rem;
     align-self: center;
 }
 
 .logo img {
-    width: 4rem;
+    height: 3rem;
+    width: 3rem;
 }
 
 .nav {
@@ -246,8 +250,8 @@ html {
     content: "";
     display: inline-block;
     vertical-align: center;
-    width: 1.2rem;
-    height: 1.2rem;
+    width: 1.5rem;
+    height: 1.5rem;
     background-image: url('../img/icons/facebook-brands-solid-full.svg');
     background-size: contain;
     background-repeat: no-repeat;
@@ -262,8 +266,8 @@ html {
     content: "";
     display: inline-block;
     vertical-align: center;
-    width: 1.2rem;
-    height: 1.2rem;
+    width: 1.5rem;
+    height: 1.5rem;
     background-image: url('../img/icons/x-twitter-brands-solid-full.svg');
     background-size: contain;
     background-repeat: no-repeat;
